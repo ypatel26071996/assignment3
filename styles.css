@@ -1,0 +1,137 @@
+.main {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-25 {
+    width: 25%;
+    float: left;
+    margin-top: 6px;
+}
+
+.col-50 {
+    width: 50%;
+    float: left;
+    margin-top: 6px;
+}
+
+.col-75 {
+    width: 70%;
+    float: left;
+    margin-top: 6px;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.welcome_field {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  .mainbar{
+    margin-left:25%;
+    padding:1px 16px;
+    height:1000px;
+  }
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  input[type=text], [type=number], [type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=button] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-left: auto;
+  }
+  
+  input[type=button]:hover {
+    background-color: #45a049;
+  }
+
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=button] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  .status{
+      color: red;
+  }
+  #items {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #items td, #items th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #items tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #items tr:hover {background-color: #ddd;}
+  
+  #items th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }

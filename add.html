@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Enter Info</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="search.html">Search</a></li>
+            <li><a  class="active" href="add.html">Enter Info</a></li>
+        </ul>
+        <div class="mainbar">
+            <div class="container">
+                <h1>Enter Info</h1>
+                <form action="">
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="fname">First Name</label><span id="fname_status" class="status"></span>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+                            
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="lname">Last Name</label><span id="lname_status" class="status"></span>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="address">Address</label><span id="address_status" class="status"></span>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="address" name="address" placeholder="Your address..">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="city">City</label><span id="city_status" class="status"></span>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="city" name="city" placeholder="Your city..">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="provice">Province</label><span id="province_status" class="status"></span>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="province" name="province" placeholder="Your province..">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="postalcode">Postal Code</label><span id="postal_status" class="status"></span>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="postalcode" name="postalcode" placeholder="Postal code">
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="phone">Phone number</label><span id="phone_status" class="status"></span>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="phone" name="phone" placeholder="phone...">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="email">Email</label><span id="email_status" class="status"></span>
+                        </div>
+                        <div class="col-75">
+                            <input type="email" id="email" name="email" placeholder="email..">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="make">Vehicle Make</label><span id="make_status" class="status"></span>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="make" name="make" placeholder="vehicle make..">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="model">Vehicle Model</label><span id="model_status" class="status"></span>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="model" name="model" placeholder="vehicle model..">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="year">Year</label><span id="year_status" class="status"></span>
+                        </div>
+                        <div class="col-75">
+                            <input type="number" id="year" name="year" placeholder="Year of manufacture..">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="button" value="Add Info" onclick="addInfo();" id="add_btn">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="add_script.js"></script>
+
+</body>
+
+</html>
